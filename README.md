@@ -71,7 +71,7 @@ In order to demostrate to the client how they can combine filters, we filtered t
 
 - For this project we were able to create a dynamic webpage that provided the client an effective way to filter the table with multiple criterias based on theire inputs. In order to let the client to try and feel the app we deployed the webpage using GitHub pages:
 
-     - [link to deployed webpage](https://l-aldarondo.github.io/UFOs/)
+     - [link to deployed webpage](https://l-aldarondo.github.io/Biodiversity_with_Plotly/)
 
 - One drawback of this page is that the user interaction with the page is limited to the filters. The page dosen't provide a way to provide feedback, help section or FAQ. In addition the client needs to manually clear the filters to reset the page.
 
