@@ -15,7 +15,7 @@ This project consists of four technical analysis deliverables.
 
 ### Purpose
 
-The client has a partially completed dashboard that  needs to be finished. She has a completed panel for demographic information and now needs to visualize the bacterial data for each volunteer. The Purpose of the dashboard is to investigate the samples data available to look at the top 10 bacterial species for each belly buttom bacterial samples. The goal is to identify potential species as a candidate to manufacture synthetic beef, that way her volunteers will be able to identify whether that species is found in their navel.
+The client had a partially completed dashboard that  needed to be finished. She had a completed panel for demographic information and now needs to visualize the bacterial data for each volunteer. The Purpose of the dashboard is to investigate the samples data available to look at the top 10 bacterial species for each belly buttom bacterial samples. The goal is to identify potential species as a candidate to manufacture synthetic beef, that way her volunteers will be able to identify whether that species is found in their navel.
 
 
 ## Methodology
