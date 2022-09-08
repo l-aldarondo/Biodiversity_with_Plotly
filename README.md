@@ -59,7 +59,7 @@ Using Using JavaScript, Plotly, and D3, we re-factored the code of our index.htm
 
 [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
  
-[Bootstap Grid system](https://getbootstrap.com/docs/3.3/examples/grid/)
+[Plotly gauge chart](https://plotly.com/javascript/gauge-charts/)
  
 [Bootstrap CSS](https://getbootstrap.com/docs/3.3/css/)
 
