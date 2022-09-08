@@ -1,1 +1,13 @@
 /* my css style sheet */
+
+/* add an image to jumbotron */
+h4 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    color: yellow;
+    background-image: url("../images/Beef-palant-bacteria.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
