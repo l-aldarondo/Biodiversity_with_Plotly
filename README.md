@@ -14,12 +14,14 @@ This project consists of four technical analysis deliverables.
 - Deliverable 4: Customize the Dashboard
 
 ### Purpose
-The client has a partially completed dashboard that  needs to be finished. She has a completed panel for demographic information and now needs to visualize the bacterial data for each volunteer. Specifically, her volunteers should be able to identify the top 10 bacterial species in their belly buttons. That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, Roza's volunteers will be able to identify whether that species is found in their navel.
+
+The client has a partially completed dashboard that  needs to be finished. She has a completed panel for demographic information and now needs to visualize the bacterial data for each volunteer. The Purpose of the dashboard is to investigate the samples data available to look at the top 10 bacterial species for each belly buttom bacterial samples. The goal is to identify potential species as a candidate to manufacture synthetic beef, that way her volunteers will be able to identify whether that species is found in their navel.
 
 
 ## Methodology
-- Using JavaScript and HTML, we modifyied the code in our index.html file to create more table filters. In addition to the date filter we created, we added filters for the city, state, country, and shape. 
-- Using JavaScript, we replaced the handleClick() function in our app.js file with a new function that saved the element, value, and id of the filter that was changed. Then, we created a new function to loop through the dataset and keept only the results that matched the search criteria. The webpage will be updated with the search criteria after pressing "Enter".
+- Using JavaScript, Plotly, and D3.js, we created a horizontal bar chart, a bubble chart and a gauge chart to display the top 10 bacterial species.
+
+- Using HTML and Bootstrap we customized the webpage for our dashboard.
 
 ## Resources
  
@@ -33,57 +35,23 @@ Software:
 
 ### Results
 
-Using JavaScript and HTML, we re-factored the code of our index.html file to create more table filters. Now the client would be able to filter not only be date, but by city, state, country, and shape, as shown in Figure (a). Then the webpage will be updated with the search criteria after pressing "Enter".
+Using Using JavaScript, Plotly, and D3, we re-factored the code of our index.html file to create a dashboard and then we modified the webpage using HTML and Bootstrap as shown in image (a).
 
 <br/>
 
-(a) ![webpage_multiple filters](./static/images/webpage_multiple%20filters.png)
 
-<sub> Figure (a) Filter UFO sightings on multiple criteria
-
-<br/>
-
-This deployed webpage has 5 dynamic filter that our client can interact with. The filters can be used independently from each other or in any combination to filter the table for the desire data output. For our demostration we will filter first by date to show how the webapp works with one filter at a time, as shown in Figure (b).
-
-(b)![filter_by_date](./static/images/filter_by_date.png)
-
-<sub> Figure (b) Filtered by Date.
-
-In order to demostrate to the client how they can combine filters, we filtered the table by date and then by combining with all the different filters availabels in the page, as shown in Figure (c - f).
-
-(c)![filter_by_city](./static/images/filter_by_city.png)
-
-<sub> Figure (c) Filtered by Date and City
-
-(d)![filter_by_State](./static/images/filter_by_state.png)
-
-<sub> Figure (d) Filtered by Date and State.
-
-(e)![filter_by_Country](./static/images/filter_by_country.png)
-
-<sub> Figure (e) Filtered by Date and Country.
-
-(f)![filter_by_Shape](./static/images/filter_by_shape.png)
+(a)![dashboard](./static/images/dashboard.png)
  
-<sub> Figure (f) Filtered by Date and Shape
+<sub> Figure (a) Dashboard
 
 <br/>
 
 
 ## Summary
 
-- For this project we were able to create a dynamic webpage that provided the client an effective way to filter the table with multiple criterias based on theire inputs. In order to let the client to try and feel the app we deployed the webpage using GitHub pages:
+- For this project we were able to create a dynamic dashboard that provided the client an effective way to filter the data for each bacterial sample, and provided 3 vizualizations that changed accordenly with the sample selection. In order to let the client to try and feel the app we deployed the webpage using GitHub pages:
 
      - [link to deployed webpage](https://l-aldarondo.github.io/Biodiversity_with_Plotly/)
-
-- One drawback of this page is that the user interaction with the page is limited to the filters. The page dosen't provide a way to provide feedback, help section or FAQ. In addition the client needs to manually clear the filters to reset the page.
-
-- For future development we would consider the following:
-    - Provide a way for the user to clear all the filters at once, by adding a "clear filters button".
-    - Provide a way to filter by keyword on the entire webpage, by adding an "input box".
-    - Adding a FAQ or help sections with links and some information on how to use the page.
-
-This improvements will allowd the page to be more dynamic, user friendlly and provide a more inmersive experience for the end user.
 
 <br/>
 
