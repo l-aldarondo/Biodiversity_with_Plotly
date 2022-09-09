@@ -35,7 +35,7 @@ Software:
 
 ### Results
 
-Using Using JavaScript, Plotly, and D3, we re-factored the code of our index.html file to create a dashboard and then we modified the webpage using HTML and Bootstrap as shown in image (a).
+Using JavaScript, Plotly, and D3, we re-factored the code of our index.html file to create a dashboard and then we modified the webpage using HTML and Bootstrap as shown in image (a).
 
 <br/>
 
