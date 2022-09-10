@@ -49,7 +49,7 @@ Using JavaScript, Plotly, and D3, we re-factored the code of our index.html file
 
 ## Summary
 
-- For this project we were able to create a dynamic dashboard that provided the client an effective way to filter the data for each bacterial sample, and provided 3 vizualizations that changed accordenly with the sample selection. In order to let the client to try and feel the app we deployed the webpage using GitHub pages:
+- For this project we were able to create a dynamic dashboard that provided the client an effective way to filter the data for each bacterial sample, and provided 3 visualizations that changed accordenly with the sample selection. In order to let the client to try and feel the app we deployed the webpage using GitHub pages:
 
      - [link to deployed webpage](https://l-aldarondo.github.io/Biodiversity_with_Plotly/)
 
